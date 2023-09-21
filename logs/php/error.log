@@ -1,0 +1,312 @@
+[11-Sep-2023 16:20:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 16:21:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 16:22:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 16:22:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 16:22:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 16:22:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 17:10:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 17:10:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 17:22:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 17:22:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 17:23:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 17:24:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php:22
+Stack trace:
+#0 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): my_theme_enqueue_styles('')
+#1 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\header.php(46): wp_head()
+#9 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(785): require_once('C:\\Users\\APats\\...')
+#10 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template.php(720): load_template('C:\\Users\\APats\\...', true, Array)
+#11 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\neve\page.php(10): get_header()
+#13 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\APats\\...')
+#14 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\APats\\...')
+#15 C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\index.php(17): require('C:\\Users\\APats\\...')
+#16 {main}
+  thrown in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\themes\planty\functions.php on line 22
+[11-Sep-2023 17:37:16 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[11-Sep-2023 17:37:16 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[11-Sep-2023 17:37:16 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[11-Sep-2023 17:37:16 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[11-Sep-2023 17:37:16 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[19-Sep-2023 16:58:13 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 16:58:13 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 16:58:58 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 16:58:58 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 16:59:36 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 16:59:36 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 16:59:47 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 16:59:47 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 17:40:19 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Sep-2023 22:29:41 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 22:29:41 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 22:41:21 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 22:41:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 23:11:30 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Sep-2023 23:14:21 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 23:14:21 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 23:18:54 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 23:18:54 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 23:24:51 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 23:24:51 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 23:44:51 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 23:44:51 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[19-Sep-2023 23:49:15 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[19-Sep-2023 23:49:15 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[20-Sep-2023 00:01:48 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[20-Sep-2023 00:01:48 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_opcache.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_opcache.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_xdebug.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_xdebug.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_curl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_curl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_gettext.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_gettext.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_openssl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_openssl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_exif.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_exif.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_gd.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_gd.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_ftp.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_ftp.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_imap.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_imap.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_bz2.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_bz2.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_mbstring.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_mbstring.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_sodium.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_sodium.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_tidy.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_tidy.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_xsl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_xsl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_soap.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_soap.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_mysqli.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_mysqli.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_pdo_mysql.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_pdo_mysql.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_fileinfo.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_fileinfo.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_fileinfo.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:12 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_intl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_intl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_intl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  Failed loading Zend extension 'php_opcache.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_opcache.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_opcache.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  Failed loading Zend extension 'php_xdebug.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_xdebug.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_xdebug.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_curl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_curl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gettext.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_gettext.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_gettext.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_openssl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_openssl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_exif.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_exif.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_exif.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_gd.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_gd.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ftp.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_ftp.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_ftp.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imap.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_imap.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_imap.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_bz2.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_bz2.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_bz2.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mbstring.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_mbstring.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_mbstring.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_sodium.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_sodium.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_sodium.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_tidy.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_tidy.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_tidy.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xsl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_xsl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_xsl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_soap.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_soap.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_soap.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_mysqli.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_mysqli.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_mysqli.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_mysql.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_pdo_mysql.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_pdo_mysql.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_fileinfo.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_fileinfo.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_fileinfo.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 14:16:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_intl.dll' (tried: C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_intl.dll (Le module spécifié est introuvable), C:/Users/APats/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-8.1.9+8/bin/win64/ext\php_php_intl.dll.dll (Le module spécifié est introuvable)) in Unknown on line 0
+[21-Sep-2023 17:53:11 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[21-Sep-2023 17:54:36 UTC] PHP Warning:  Undefined array key 1 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 84
+[21-Sep-2023 17:54:36 UTC] PHP Warning:  Undefined array key 2 in C:\Users\APats\Documents\Fichiers Wordpress\planty\app\public\wp-content\plugins\elementor\includes\managers\image.php on line 85

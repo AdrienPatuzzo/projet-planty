@@ -1,8 +1,6 @@
 /*
 Theme Name:     Planty
-Theme URI:      https://themeisle.com/themes/neve/
 Author:         Adrien P
-Author URI:     https://themeisle.com
 Requires PHP:   7.0
 Requires at least: 5.4
 Description:    Theme enfant de neve pour le site planty
@@ -18,3 +16,8 @@ Requires License:     no
 Tags: blog, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles, footer-widgets, portfolio, left-sidebar, right-sidebar
 
 */
+
+
+div.nv-footer-content div.hfg-slot div.builder-item div.item--inner div.component-wrap {
+    display: none;
+}
